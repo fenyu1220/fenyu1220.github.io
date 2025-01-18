@@ -3,9 +3,8 @@
     "name": "Fen-Yu Hsieh",
     "email": "fenyu9867@gmail.com",
     "language": "Mandarin Chinese, English",
-    "Programming Languages": "C/C++/C#, Python, Verilog, HTML, JavaScript, Java",
+    "Programming Languages": "C/C++/C#, Python, Verilog, HTML, JavaScript, CSS, Java",
     "url": "https://fenyu1220.github.io",
-    "github": "https://github.com/fenyu1220",
     "summary": "Computer Science in National Tsing Hua University",
     "profiles": [
       {
@@ -18,6 +17,7 @@
   "education": [
     {
       "institution": "National Tsing Hua University (NTHU)",
+      "url": "https://dcs-en.site.nthu.edu.tw",
       "studyType": "B.S. in Computer Science",
       "startDate": "2021",
       "endDate": "2025",
@@ -25,7 +25,7 @@
         {
           "title": "Department of Computer Science",
           "details": [
-            "GPA: /4.3 (/4.0)",
+            "GPA: TBD/4.3 (TBD/4.0)",
             "Related Courses: Discrete Mathematics, Data Structures, Algorithms, Computer Architecture, Operating Systems, Machine Learning, Deep Learning, Logic Design Laboratory, Embedded Systems, Database Systems"
           ]
         }
@@ -34,14 +34,42 @@
   ],
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "Hardware Design and Lab, NTHU",
+      "position": "Teaching Assistant",
+      "startDate": "2023",
+      "endDate": "2024",
+      "summary": "Verilog and FPGA implementations, timing methodologies, finite state systems, digital, and logic design",
       "highlights": [
-        "Relativity"
+        "Course Instructor: Prof. Chih-Tsun Huang"
+      ]
+    },
+    {
+      "name": "Introduction to Machine Learning, NTHU",
+      "position": "Teaching Assistant",
+      "startDate": "2024",
+      "summary": "Machine learning, pattern recognition, artificial intelligent, representation learning, deep learning",
+      "highlights": [
+        "Course Instructor: Prof. Po-Chih (Bruce) Kuo"
+      ]
+    },
+    {
+      "name": "EOSL, ITRI",
+      "position": "Temporary and Fixed-term Personnel",
+      "startDate": "2024-05",
+      "endDate": "2024-11",
+      "summary": "The Electronic and Optoelectronic System Research Laboratories, Industrial Technology Research Institute",
+      "highlights": [
+        "Embedded Systems and Chip Technology Group"
+      ]
+    },
+    {
+      "name": "Institute of Information Science, Academic Sinica",
+      "position": "Part-time Research Assistant",
+      "startDate": "2025-01",
+      "endDate": "Present",
+      "summary": "TBD",
+      "highlights": [
+        "Computer Systems Group"
       ]
     }
   ],
