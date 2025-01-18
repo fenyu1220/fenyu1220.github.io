@@ -24,8 +24,8 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+          title: "Projects",
+          description: "Research and Course Projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -452,6 +452,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-coin-bank",
+          title: 'Coin Bank',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/coin_bank/";
             },},{
         id: 'social-email',
         title: 'email',
