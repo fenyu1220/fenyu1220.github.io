@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: BertEncoder Accelerator Engine
+description: 'Course project of CS 512000: VLSI System Design'
+img: assets/img/projects/bert_profile.png
 importance: 1
 category: course projects
 related_publications: true

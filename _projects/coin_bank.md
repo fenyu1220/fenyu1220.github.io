@@ -2,23 +2,41 @@
 layout: page
 title: Coin Bank
 description: 'Course project of CS 312000: Introduction of Integrated Circuit Design'
-img: assets/img/projects/layout_profile.png
+img: assets/img/projects/coinbank_profile.png
 importance: 1
 category: course projects
 related_publications: true
 ---
 
-This project explores the application of reinforcement learning (RL) to autonomous drone racing, addressing the challenges of policy training and the design of action spaces, reward structures, and training strategies. The Proximal Policy Optimization (PPO) algorithm, a model-free RL approach, was employed due to its stability and performance. Simulations utilizing a six-degree-of-freedom drone dynamics model evaluated the impact of rotor speed and body rate control inputs on policy effectiveness. The study highlighted the importance of designing coherent action-observation mappings for robust performance, favoring body rate control for its simplicity. Reward structures were tailored to incentivize progress, path following, and safety, with distinct modes tested to balance risk and efficiency. A custom simulator incorporated collision detection and dynamic initialization strategies, enabling efficient exploration of diverse racecourse configurations. Experiments revealed that the initialization buffer strategy yielded inconsistent results, emphasizing the need for refinement. Performance metrics such as completion rates, trajectory lengths, and generalization across unseen courses were analyzed. While the trained policies performed well on simpler racecourses, challenges persisted on complex layouts like figure-of-eight courses, partly due to policy forgetting during prolonged training. Generalization evaluations indicated that policies designed for specific courses struggled to adapt to simpler or structurally different environments. Despite these limitations, the findings underscore the critical role of design decisions in RL applications for dynamic and safety-critical tasks. Future work could explore alternative algorithms, reward tuning, and programming optimizations to enhance scalability and efficiency in training.
+This project focuses on the **full custom design of a digital coin bank**, leveraging fundamental principles of **integrated circuit (IC) design** to develop an efficient and scalable savings management system. The coin bank circuit is designed to store, update, and display monetary values using **flip-flops (DFFs), multiplexers (MUXs), and finite state machines (FSMs)**. The system operates on a 1.8V power supply, with state transitions dictated by clock signals, power control, and store commands.
+
+The circuit consists of a 4-bit input for storing money, a 4-bit monitor output, and a dual-state encoding system, supporting both binary and one-hot encoding to represent FSM states. The FSM transitions through four key states—Sleep, Idle, Store Money, and Show Money—where the deposited amount is accumulated and displayed dynamically. Notably, due to the absence of a reset signal, the initial stored value is retrieved from flip-flop registers (Init3 to Init0) to ensure accurate tracking.
+
+The project employs **pre-simulation and post-simulation analysis**, validating the system's functional correctness, latency, and area efficiency. Performance evaluation includes waveform analysis, state transition validation, and design rule checks (DRC) and layout versus schematic (LVS) verification. The project also explores different FSM encoding methods, analyzing their impact on circuit complexity and performance.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/coinbank_wave1.png" title="waveform 1" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/coinbank_wave2.png" title="waveform 2" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    These two figures are part of the waveform of my project.
+</div>
+
+Challenges encountered include **ensuring timing synchronization**, optimizing **logic gate arrangements**, and maintaining **low power consumption**. The study highlights the critical role of **circuit architecture, state encoding, and memory elements** in IC design, providing a foundational understanding of digital system integration.
 
  
- Here is our project report: [Report]({{ site.url }}/assets/pdf/coin_bank_report.pdf)
+ Here is my project report: [Report]({{ "/assets/pdf/coin_bank_report.pdf" | relative_url }})
 
 
 <div class="col-sm-12 text-center">
     
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/coinbank_layout.png" title="the whole layout of my coin bank design" class="img-fluid rounded z-depth-1" %}
     
 </div>
 <div class="caption">
-    This figure shows a quadrotor completing half of a figure-of-eight racecourse using a policy trained with RL.
+    This figure shows the whole layout of my coin bank design.
 </div>
