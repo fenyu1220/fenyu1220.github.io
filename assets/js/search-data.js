@@ -452,11 +452,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "projects-bertencoder-accelerator-engine",
+          title: 'BertEncoder Accelerator Engine',
+          description: "Course project of CS 512000: VLSI System Design",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/A/";
+              window.location.href = "/projects/bert/";
             },},{id: "projects-coin-bank",
           title: 'Coin Bank',
           description: "Course project of CS 312000: Introduction of Integrated Circuit Design",
