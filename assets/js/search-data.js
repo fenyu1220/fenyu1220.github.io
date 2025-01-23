@@ -452,9 +452,14 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-project-1",
+          title: 'project 1',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/A/";
             },},{id: "projects-coin-bank",
           title: 'Coin Bank',
-          description: "with background image",
+          description: "Course project of CS 312000: Introduction of Integrated Circuit Design",
           section: "Projects",handler: () => {
               window.location.href = "/projects/coin_bank/";
             },},{
