@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Coin Bank
-description: 'Course project of CS 312000: Introduction of Integrated Circuit Design'
+description: "Course project of CS 312000: Introduction of Integrated Circuit Design"
 img: assets/img/projects/coinbank_profile.png
 importance: 1
 category: course projects
-related_publications: true
+related_publications: false
 ---
 
 This project focuses on the **full custom design of a digital coin bank**, leveraging fundamental principles of **integrated circuit (IC) design** to develop an efficient and scalable savings management system. The coin bank circuit is designed to store, update, and display monetary values using **flip-flops (DFFs), multiplexers (MUXs), and finite state machines (FSMs)**. The system operates on a 1.8V power supply, with state transitions dictated by clock signals, power control, and store commands.
@@ -28,9 +28,7 @@ The project employs **pre-simulation and post-simulation analysis**, validating 
 
 Challenges encountered include **ensuring timing synchronization**, optimizing **logic gate arrangements**, and maintaining **low power consumption**. The study highlights the critical role of **circuit architecture, state encoding, and memory elements** in IC design, providing a foundational understanding of digital system integration.
 
- 
- Here is my project report: [Report]({{ "/assets/pdf/coin_bank_report.pdf" | relative_url }})
-
+Here is my project report: [Report]({{ "/assets/pdf/coin_bank_report.pdf" | relative_url }})
 
 <div class="col-sm-12 text-center">
     

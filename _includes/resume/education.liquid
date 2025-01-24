@@ -46,7 +46,9 @@
                 <strong>{{ course.title }}</strong>
                 <ul>
                   {% for detail in course.details %}
-                    <li><span class="item">{{ detail }}</span></li>
+                    <li>
+                      <span class="item">{{ detail }}</span>
+                    </li>
                   {% endfor %}
                 </ul>
               </li>
