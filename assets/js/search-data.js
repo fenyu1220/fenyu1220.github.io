@@ -462,6 +462,11 @@ ninja.data = [{
           description: "Course project of CS 312000: Introduction of Integrated Circuit Design",
           section: "Projects",handler: () => {
               window.location.href = "/projects/coin_bank/";
+            },},{id: "projects-mass-detection-in-mammogram-images",
+          title: 'Mass Detection in Mammogram Images',
+          description: "Course project of CS 460200: Introduction to Machine Learning",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mass/";
             },},{
         id: 'social-email',
         title: 'email',
