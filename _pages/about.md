@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: 謝棻伃｜Computer Science @ NTHU
 
