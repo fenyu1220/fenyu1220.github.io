@@ -24,7 +24,7 @@
         {
           "title": "Department of Computer Science",
           "details": [
-            "GPA: TBD/4.3 (TBD/4.0)",
+            "GPA: 3.95/4.3 (TBD/4.0)",
             "Related Courses: Discrete Mathematics, Data Structures, Algorithms, Computer Architecture, Operating Systems, Machine Learning, Deep Learning, Logic Design Laboratory, Embedded Systems, Database Systems"
           ]
         }
@@ -46,6 +46,16 @@
       "name": "Institute of Information Science, Academic Sinica",
       "position": "Part-time Research Assistant",
       "startDate": "2025-01",
+      "endDate": "2025-06",
+      "summary": "TBD",
+      "highlights": [
+        "Computer Systems Group"
+      ]
+    },
+    {
+      "name": "Institute of Information Science, Academic Sinica",
+      "position": "Research Assistant",
+      "startDate": "2025-06",
       "endDate": "Present",
       "summary": "TBD",
       "highlights": [
@@ -57,8 +67,7 @@
     {
       "name": "Hardware Design and Lab, NTHU",
       "position": "Teaching Assistant",
-      "startDate": "2023",
-      "endDate": "2024",
+      "startDate": "2023 & 2024",
       "summary": "Verilog and FPGA implementations, timing methodologies, finite state systems, digital, and logic design",
       "highlights": [
         "Course Instructor: Prof. Chih-Tsun Huang"
@@ -88,6 +97,27 @@
       "awarder": "Second Place",
       "url": "/assets/img/temp.jpeg",
       "summary": "The first-place winners from all six companies competed for the grand prize, and we won second place."
+    },
+    {
+      "title": "2024 Computer Science Senior Project Contest",
+      "date": "2025-01",
+      "awarder": "Second Place",
+      "url": "/assets/img/temp.jpeg",
+      "summary": "Efficient GPT-2 Inference on Alveo U280 Via High Level Synthesis"
+    },
+    {
+      "title": "2024 Computer Science Senior Project Contest",
+      "date": "2025-01",
+      "awarder": "Third Place",
+      "url": "/assets/img/temp.jpeg",
+      "summary": "An Autimated Framework for Anemia Detection Utilizing a Focused Conjunctiva CNN"
+    },
+    {
+      "title": "2024 ...",
+      "date": "2025-02",
+      "awarder": "Third Place",
+      "url": "/assets/img/temp.jpeg",
+      "summary": "Efficient GPT-2 Inference on Alveo U280 Via High Level Synthesis"
     }
   ],
   "publications": [
