@@ -138,9 +138,9 @@
   "publications": [
     {
       "name": "FPGA Co-Design for N:M Sparse and Quantized",
-      "publisher": "arXiv preprint",
+      "publisher": "Submitted preprint to arXiv",
       "releaseDate": "2025",
-      "summary": "F. Y. Hsieh, D. Y. Hong, J. J. Wu"
+      "summary": "F. Y. Hsieh*, Y. C. Teng*, D. Y. Hong, J. J. Wu"
     },
     {
       "name": "A Computer Vision-Based Framework for Anemia Screening Using Conjunctiva Photos",
@@ -152,7 +152,7 @@
       "name": "HW/SW Co-Design for Efficient GPT-2 Inference on FPGA via High-Level Synthesis",
       "publisher": "The 26th Workshop on Synthesis And System Integration of Mixed Information technologies (Sasimi)",
       "releaseDate": "2025",
-      "summary": "F. Y. Hsieh*, S. T. Sung*, Y. W. Tang*, R. Y. Lin*, F. Y. Hsu*, and C. T. Huang"
+      "summary": "S. T. Sung*, Y. W. Tang*, F. Y. Hsieh*, R. Y. Lin*, F. Y. Hsu*, and C. T. Huang"
     }
   ]
 }
