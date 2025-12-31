@@ -137,7 +137,7 @@
   ],
   "publications": [
     {
-      "name": "FPGA Co-Design for N:M Sparse and Quantized",
+      "name": "	FPGA Co-Design for Efficient N:M Sparse and Quantized Model Inference",
       "publisher": "Submitted preprint to arXiv",
       "releaseDate": "2025",
       "summary": "F. Y. Hsieh*, Y. C. Teng*, D. Y. Hong, J. J. Wu"
